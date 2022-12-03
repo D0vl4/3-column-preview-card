@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraph: hsla(0, 0%, 100%, 0.75);
+  --buttons-headings: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: grid;
+  grid-auto-rows: minmax(327px, 442px);
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  max-width: 375px;
+  max-height: 1507px;
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0.2);
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1440px;
+    min-height: 800px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.2);
+  }
+}
+
+/* FIRST CONTAINER */
+.orange-container {
+  padding: 40px;
+  max-width: 327px;
+  max-height: 442px;
+  background-color: var(--Bright-orange);
+  border-radius: 5px 5px 0 0;
+  color: var(--paragraph);
+}
+
+@media only screen and (min-width: 1440px) {
+  .orange-container {
+    border-radius: 5px 0 0 5px;
+  }
+}
+
+.icon-sedan {
+  background-image: url("/3 column preview card/images/icon-sedans.svg");
+  background-repeat: no-repeat;
+  height: 41px;
+}
+
+.sedan-heading {
+  font-family: "Big Shoulders Display";
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  color: var(--buttons-headings);
+}
+
+.sedan-paragraph {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.btn-sedan {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: 2px solid var(--buttons-headings);
+  border-radius: 50px;
+  font-size: 12px;
+  color: var(--Bright-orange);
+}
+
+.btn-sedan:hover {
+  cursor: pointer;
+  border: 2px solid var(--buttons-headings);
+  background-color: var(--Bright-orange);
+  color: var(--buttons-headings);
+}
+
+/* SECOND CONTAINER */
+
+.dark-cyan-container {
+  padding: 40px;
+  max-width: 327px;
+  max-height: 442px;
+  background-color: var(--Dark-cyan);
+  color: var(--paragraph);
+}
+
+.icon-suv {
+  background-image: url("/3 column preview card/images/icon-suvs.svg");
+  background-repeat: no-repeat;
+  height: 41px;
+}
+
+.suv-heading {
+  font-family: "Big Shoulders Display";
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  color: var(--buttons-headings);
+}
+
+.suv-paragraph {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.btn-suv {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: 2px solid var(--buttons-headings);
+  border-radius: 50px;
+  font-size: 12px;
+  color: var(--Dark-cyan);
+}
+
+.btn-suv:hover {
+  cursor: pointer;
+  border: 2px solid var(--buttons-headings);
+  background-color: var(--Dark-cyan);
+  color: var(--buttons-headings);
+}
+
+/* THIRD CONTAINER */
+
+.very-dark-container {
+  padding: 40px;
+  max-width: 327px;
+  max-height: 442px;
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 0 5px 5px;
+  color: var(--paragraph);
+}
+
+@media only screen and (min-width: 1440px) {
+  .very-dark-container {
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+.icon-luxury {
+  background-image: url("/3 column preview card/images/icon-suvs.svg");
+  background-repeat: no-repeat;
+  height: 41px;
+}
+
+.luxury-heading {
+  font-family: "Big Shoulders Display";
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  color: var(--buttons-headings);
+}
+
+.luxury-paragraph {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.btn-luxury {
+  font-family: "Lexend Deca";
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: 2px solid var(--buttons-headings);
+  border-radius: 50px;
+  font-size: 12px;
+  color: var(--Very-dark-cyan);
+}
+
+.btn-luxury:hover {
+  cursor: pointer;
+  border: 2px solid var(--buttons-headings);
+  background-color: var(--Very-dark-cyan);
+  color: var(--buttons-headings);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  font-family: "Lexend Deca";
+  max-width: 375px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  line-height: 25px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

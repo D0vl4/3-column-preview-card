@@ -77,3 +77,6 @@ CSS Flexbox snippet for the desktop view:
 
 - My Website - [Dovla](https://dovla.me)
 - Frontend Mentor - [@D0vl4](https://www.frontendmentor.io/profile/D0vl4)
+
+Thank you!
+

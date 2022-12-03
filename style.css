@@ -54,7 +54,7 @@
 }
 
 .icon-sedan {
-  background-image: url("/images/icon-sedans.svg");
+  background-image: url("/3 column preview card/images/icon-sedans.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
@@ -75,10 +75,13 @@
 }
 
 .btn-sedan {
+  display: inline-block;
   font-family: "Lexend Deca";
-  margin-top: 30px;
+  text-decoration: none;
+  margin-top: 50px;
   padding: 15px 30px;
   border: 2px solid var(--buttons-headings);
+  background-color: var(--buttons-headings);
   border-radius: 50px;
   font-size: 12px;
   color: var(--Bright-orange);
@@ -102,7 +105,7 @@
 }
 
 .icon-suv {
-  background-image: url("/images/icon-suvs.svg");
+  background-image: url("/3 column preview card/images/icon-suvs.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
@@ -123,10 +126,13 @@
 }
 
 .btn-suv {
+  display: inline-block;
   font-family: "Lexend Deca";
-  margin-top: 30px;
+  text-decoration: none;
+  margin-top: 50px;
   padding: 15px 30px;
   border: 2px solid var(--buttons-headings);
+  background-color: var(--buttons-headings);
   border-radius: 50px;
   font-size: 12px;
   color: var(--Dark-cyan);
@@ -157,7 +163,7 @@
 }
 
 .icon-luxury {
-  background-image: url("/images/icon-luxury.svg");
+  background-image: url("/3 column preview card/images/icon-suvs.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
@@ -178,10 +184,13 @@
 }
 
 .btn-luxury {
+  display: inline-block;
   font-family: "Lexend Deca";
-  margin-top: 30px;
+  text-decoration: none;
+  margin-top: 50px;
   padding: 15px 30px;
   border: 2px solid var(--buttons-headings);
+  background-color: var(--buttons-headings);
   border-radius: 50px;
   font-size: 12px;
   color: var(--Very-dark-cyan);

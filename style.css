@@ -54,7 +54,7 @@
 }
 
 .icon-sedan {
-  background-image: url("3-column-preview-card/images/icon-sedans.svg");
+  background-image: url("images/icon-sedans.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
@@ -102,7 +102,7 @@
 }
 
 .icon-suv {
-  background-image: url("3-column-preview-card/images/icon-suvs.svg");
+  background-image: url("images/icon-suvs.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
@@ -157,7 +157,7 @@
 }
 
 .icon-luxury {
-  background-image: url("3-column-preview-card/images/icon-suvs.svg");
+  background-image: url("images/icon-suvs.svg");
   background-repeat: no-repeat;
   height: 41px;
 }
